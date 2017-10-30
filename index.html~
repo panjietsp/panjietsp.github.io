@@ -27,11 +27,6 @@ $.mobile.pushStateEnabled = false;
     <p>我现在是一个移动端开发者!!</p>
   </div>
 
-<div data-role="collapsible">
-<h1>点击我 - 我可以折叠!</h1>
-<p>我是可折叠的内容。</p>
-</div>
-
   <div data-role="footer">
     <h1>底部文本</h1>
   </div>
