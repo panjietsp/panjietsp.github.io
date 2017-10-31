@@ -4,72 +4,35 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- 引入 jQuery Mobile 样式 -->
-<link rel="stylesheet" href="http://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<link rel="stylesheet" href="http://cdn.bootcss.com/weui/1.1.1/style/weui.min.css">
+<link rel="stylesheet" href="http://cdn.bootcss.com/jquery-weui/1.0.1/css/jquery-weui.min.css">
 
-<!-- 引入 jQuery 库 -->
-<script src="http://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+<!-- body 最后 -->
+<script src="http://cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
+<script src="http://cdn.bootcss.com/jquery-weui/1.0.1/js/jquery-weui.min.js"></script>
 
-<!-- 引入 jQuery Mobile 库 -->
-<script src="http://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-<script>
-$.mobile.pushStateEnabled = false;
-</script>
+<!-- 如果使用了某些拓展插件还需要额外的JS -->
+<script src="http://cdn.bootcss.com/jquery-weui/1.0.1/js/swiper.min.js"></script>
+<script src="http://cdn.bootcss.com/jquery-weui/1.0.1/js/city-picker.min.js"></script>
 </head>
 <body>
 
-<div data-role="page">
-  <div data-role="header">
-    <h1>欢迎来到我的主页</h1>
-  </div>
-
-  <div data-role="main" class="ui-content">
-    <p>我现在是一个移动端开发者!!</p>
-  </div>
-
-<div data-role="collapsible">
-<h1>点击我 - 我可以折叠!</h1>
-<p>我是可折叠的内容。</p>
-</div>
-
- <div data-role="main" class="ui-content">
-    <p>以下演示了弹窗所有过渡效果的实例。</p>
-    <p><b>注意：</b> 从性能方面上考虑， jQuery Mobile 推荐使用 "pop", "fade" 或 "none" 过渡效果。</p>
-    <a href="#myPopup" data-rel="popup" class="ui-btn" data-transition="fade">淡入</a>
-    <a href="#myPopup" data-rel="popup" class="ui-btn" data-transition="flip">翻转</a>
-    <a href="#myPopup" data-rel="popup" class="ui-btn" data-transition="flow">抛出当前页后显示</a>
-    <a href="#myPopup" data-rel="popup" class="ui-btn" data-transition="pop">弹出</a>
-    <a href="#myPopup" data-rel="popup" class="ui-btn" data-transition="slide">向左滑动</a>
-    <a href="#myPopup" data-rel="popup" class="ui-btn" data-transition="slidefade">向左滑动并淡入</a>
-    <a href="#myPopup" data-rel="popup" class="ui-btn" data-transition="slideup">向上滑动 up</a>
-    <a href="#myPopup" data-rel="popup" class="ui-btn" data-transition="slidedown">向下滑动</a>
-    <a href="#myPopup" data-rel="popup" class="ui-btn" data-transition="turn">转向</a>
-    <a href="#myPopup" data-rel="popup" class="ui-btn" data-transition="none" >无过渡效果。</a>
-
-    <div data-role="popup" id="myPopup" class="ui-content">
-      <p>这是一个简单的弹窗。</p>
+<div class="weui-cells">
+  <a class="weui-cell weui-cell_access" href="./juhu.html">
+    <div class="weui-cell__bd">
+      <p>聚合订餐</p>
     </div>
-  </div>
-
-
-<div data-role="page">
-  <div data-role="header">
-    <h1>滑块控件</h1>
-  </div>
-
-  <div data-role="main" class="ui-content">
-    <form method="post" action="demoform.asp">
-      <label for="points">进度:</label>
-      <input type="range" name="points" id="points" value="50" min="0" max="100" data-highlight="true">
-      <input type="submit" data-inline="true" value="提交">
-    </form>
-  </div>
+    <div class="weui-cell__ft">
+    </div>
+  </a>
+  <a class="weui-cell weui-cell_access" href="javascript:;">
+    <div class="weui-cell__bd">
+      <p>测试页面</p>
+    </div>
+    <div class="weui-cell__ft">
+    </div>
+  </a>
 </div>
-
-  <div data-role="footer">
-    <h1>底部文本</h1>
-  </div>
-</div> 
 
 </body>
 </html>
