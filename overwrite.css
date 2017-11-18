@@ -7,3 +7,14 @@ hr{
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
+
+.head_color{
+	padding-top: 15px;
+	padding-bottom: 15px; 
+	background: #96b97d;
+	font: bold 14px/30px Georgia, serif;
+	color: white;
+}
+.body_color{
+	background: #fff;
+}
