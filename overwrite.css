@@ -1,11 +1,11 @@
-.zero{
-	margin-bottom: 0
-}
 
 hr{
 	border-top: 2px solid #ddd;
 	margin-bottom: 10px;
 	margin-top: 10px;
+}
+.zero{
+	margin-bottom: 0
 }
 
 .head_color{
@@ -17,4 +17,8 @@ hr{
 }
 .body_color{
 	background: #fff;
+}
+
+.list_color{
+	background: #96b97d;
 }
